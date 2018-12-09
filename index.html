@@ -15,7 +15,7 @@
   <body>
     <!--Left Panel-->
     <div id = "header">
-      <p id = "header_text"><strong> Urban Growth Tracker | Four Cities </strong></p>
+      <p id = "header_text"><strong> Urban Growth Tracker | Six Cities </strong></p>
           <!-- <div id = "option">
               <ul>
                   <button class="link" style ="margin-left:15px;">Change to "national" scale for comparison: </button>
@@ -25,6 +25,14 @@
               </ul>
           </div> -->
     </div>
+    <div class = "sidebar" style="position:absolute; left:16px; top: 50px; width: 20%;">
+      <p>1. Miami, U.S.</p>
+      <p>2. Vegas, U.S.</p>
+      <p>3. Bogota, Colombia</p>
+      <p>4. Beijing, China</p>
+      <p>5. Adu Dhabi, UAE</p>
+      <p>6. Manchester, U.K.</p>
+    </div>
     <!-- <div style="position: absolute; margin:15px; padding:10px; bottom:340px; left:25px; width: 400px; background-color: white; opacity: 0.6; filter: alpha(opacity=60); z-index:40;">
       <p style="font-family: Arial; color:black;">Urban Tracker tracks the urban growth of major cities across the globe by reading their satellite image data over time. Built with Google Earth Engine's API and timelapse platform. </p>
     </div> -->
@@ -32,13 +40,21 @@
     <!-- Embed the google earth engine map on Chongqing -->
     <div class="earthmap">
       <!-- <iframe id="earthengine1" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=12.67111,106.54495,9.694,latLng&t=1.17" frameborder="0"></iframe> -->
-      <iframe id="earthengine2" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=4.68804,-74.02331,8.395,latLng&t=1.77" frameborder="0"></iframe>
-      <iframe id="earthengine3" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=39.90237,116.40417,9.711,latLng&t=3.27" frameborder="0"></iframe>
-      <iframe id="earthengine4" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=36.15097,-115.17731,8.084,latLng&t=0.00" frameborder="0"></iframe>
-      <iframe id="earthengine5" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=-69.88982,38.7299,6.98,latLng&t=2.08" frameborder="0"></iframe>
+      <!-- <iframe class="earthengine" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=25.5671,-79.49284,6.857,latLng&t=0.50" frameborder="0"></iframe> -->
+      <iframe class="earthengine" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=25.93011,-80.24446,9.129,latLng&t=0.28" frameborder="0"></iframe>
+      <iframe class="earthengine" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=36.15097,-115.17731,8.084,latLng&t=0.00" frameborder="0"></iframe>
+      <iframe class="earthengine" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=4.68804,-74.02331,8.395,latLng&t=1.77" frameborder="0"></iframe>
+      <iframe class="earthengine" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=39.90237,116.40417,9.711,latLng&t=3.27" frameborder="0"></iframe>
+      <iframe class="earthengine" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=24.45388,54.37734,10,latLng&t=1.16" frameborder="0"></iframe>
+      <iframe class="earthengine" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=37.55726,126.95336,8.776,latLng&t=0.00" frameborder="0"></iframe>
 
-      <!-- <iframe id="earthengine6" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=29.67111,106.54495,9.694,latLng&t=1.17" frameborder="0"></iframe>
-      <iframe id="earthengine7" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=39.67111,106.54495,9.694,latLng&t=1.17" frameborder="0"></iframe>
+      <!-- <iframe class="earthengine" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=29.67111,106.54495,9.694,latLng&t=1.17" frameborder="0"></iframe> -->
+
+      <!-- <iframe class="earthengine" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=61.08289,-147.0517,8.77,latLng&t=3.20" frameborder="0"></iframe> -->
+
+      <!-- following is for the Columbia glacier recording -->
+      <!-- <iframe class="earthengine" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=61.08289,-147.0517,8.77,latLng&t=3.20" frameborder="0"></iframe> -->
+      <!-- <iframe id="earthengine7" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=39.67111,106.54495,9.694,latLng&t=1.17" frameborder="0"></iframe>
       <iframe id="earthengine8" src="https://earthengine.google.com/iframes/timelapse_player_embed.html#v=39.67111,106.54495,9.694,latLng&t=1.17" frameborder="0"></iframe> -->
     </div>
     <!-- <div style = "position: absolute; left: 400px; top: 1000px; bottom: 0;z-index:40;"> -->

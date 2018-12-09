@@ -22,20 +22,28 @@ src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-op
   height:100%;
 }
 
-#earthengine1{
+.earthengine{
     position: relative;
     width:40%;
-    height:30%;
+    height:300px;
     left:20%;
-    /* z-index:100; */
+    top:10px;
+}
+
+/* #earthengine1{
+    position: relative;
+    width:40%;
+    height:50%;
+    left:20%;
+    top:15%;
 }
 
 #earthengine2{
   position: relative;
   width:40%;
-  height:30%;
+  height:50%;
   left:20%;
-  /* z-index:100; */
+  top:15%;
 }
 
 #earthengine3{
@@ -43,7 +51,7 @@ src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-op
   width:40%;
   height:30%;
   left:20%;
-  /* z-index:100; */
+  top:15%;
 }
 
 #earthengine4{
@@ -51,7 +59,7 @@ src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-op
   width:40%;
   height:30%;
   left:20%;
-  /* z-index:100; */
+  top:15%;
 }
 
 #earthengine5{
@@ -59,7 +67,7 @@ src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-op
     width:40%;
     height:30%;
     left:20%;
-    /* z-index:100; */
+    top:15%;
 }
 
 #earthengine6{
@@ -67,7 +75,7 @@ src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-op
   width:40%;
   height:30%;
   left:20%;
-  /* z-index:100; */
+  top:15%;
 }
 
 #earthengine7{
@@ -75,7 +83,7 @@ src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-op
   width:40%;
   height:30%;
   left:20%;
-  /* z-index:100; */
+  top:15%;
 }
 
 #earthengine8{
@@ -83,8 +91,8 @@ src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-op
   width:40%;
   height:30%;
   left:20%;
-  /* z-index:100; */
-}
+  top:15%;
+} */
 
 
 #header{
